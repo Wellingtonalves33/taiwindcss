@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="h-screen w-screen grid grid-cols-1 md:grid-cols-2 grid-rows-6">
+        <div class="row-span-5 md:flex justify-end hidden">
+            <img class="max-w-96" src="./img/insta-img.png" alt="insta-img">
+        </div>
+        <!-- formulario -->
+        <div class="row-span-5 flex flex-col justify-center items-center grid-cols-1 ">
+            <form class="w-80 flex flex-col justify-center items-center border rounded-sm px-10 py-4 gap-5">
+                <img class="w-52" src="./img/insta-logo.png" />
+
+                <input class="bg-slate-50 h-9 w-full pl-3 border rounded-sm"
+                    placeholder="Telefone, nome de usuário ou email">
+                <input class="bg-slate-50 h-9 w-full pl-3 border rounded-sm" placeholder="Senha">
+
+                <button class="bg-blue-500 w-full h-8 rounded-md text-slate-50 hover:bg-blue-300">Entra</button>
+
+                <a class="text-blue-700 font-bold cursor-pointer"> Entra com o Facebook</a>
+                <a class="text-blue-700 text-sm cursor-pointer"> Esqueceu a senha?</a>
+
+
+            </form>
+            <div class="border w-80 my-4 text-center py-4">
+                <p>Não tem uma conta?<a class="text-blue-400 font-bold">Cadastre-se</a></p>
+            </div>
+            <p>Obteha o aplicativo</p>
+            <div class="flex gap-2 mt-4">
+
+                <img class="h-10" src="./img/apple.png" alt="apple">
+                <img class="h-10" src="./img/google.png" alt="google">
+            </div>
+
+        </div>
+
+        <!-- rodapé -->
+        <div class="row-span-1 col-span-2">
+            <ul class="flex flex-wrap gap-5 justify-center">
+                <li class="text-slate-800 text-sm">Meta</li>
+                <li class="text-slate-800 text-sm">Sobre</li>
+                <li class="text-slate-800 text-sm">Blog</li>
+                <li class="text-slate-800 text-sm">Carreiras</li>
+                <li class="text-slate-800 text-sm">Ajuda</li>
+                <li class="text-slate-800 text-sm">API</li>
+                <li class="text-slate-800 text-sm">Privacidade</li>
+                <li class="text-slate-800 text-sm">Termos</li>
+                <li class="text-slate-800 text-sm">Localizações</li>
+                <li class="text-slate-800 text-sm">Instagram Lite</li>
+                <li class="text-slate-800 text-sm">Threads</li>
+                <li class="text-slate-800 text-sm">Carregamento de contatos e não usuários</li>
+                <li class="text-slate-800 text-sm">Meta Verified</li>
+            </ul>
+            <ul class="flex flex-wrap gap-5 justify-center mt-6">
+                <li class="text-slate-800">Português (Brasil) </li>
+                <li class="text-slate-800">© 2024 Instagram from Meta</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
